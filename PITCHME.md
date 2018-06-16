@@ -135,28 +135,30 @@ $ git --version
   $ git pull
   $ git push origin master
   ```
-- [リポジトリのページ](https://github.com/tmu-sig/learn-python)が
+- [リポジトリのページ](https://github.com/tmu-sig/learn-python)が  
   更新されていることを確認
 
 +++
 
 ### Pythonの実行環境を作ろう
 #### 実行環境？
-- プログラム（hogehoge.py）はただのテキストファイル
-- 実行環境＝ファイルに書かれている内容を解釈して．PCに命令する
-- pythonではプロジェクトごとに仮想環境を作ることが一般的
+- プログラム（hogehoge.py）は  
+  ただのテキストファイル
+- 実行環境＝ファイルに書かれている内容を解釈して，PCに命令する
+- pythonではプロジェクトごとに  
+  仮想環境を作ることが一般的
   - 輪講ゼミではpython2系，この勉強会ではpython3系を使うといったことが簡単に
   - パッケージの管理が簡単
 
 +++
 
 ### Python3のインストール
-このスライドでは[ここ](https://medium.com/@chezou/python%E3%81%AE%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%82%92%E8%87%AA%E5%88%86%E3%81%AA%E3%82%8A%E3%81%AB%E6%95%B4%E7%90%86%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B-dc8d8f2fe989)
+このスライドでは[ここ](https://medium.com/@chezou/python%E3%81%AE%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%82%92%E8%87%AA%E5%88%86%E3%81%AA%E3%82%8A%E3%81%AB%E6%95%B4%E7%90%86%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B-dc8d8f2fe989)  
 の方法に従ってインストールする
 - Windows
   - [公式ページ](https://www.python.org/)から，
     Python3.6.5のインストーラーをダウンロード・実行
-  - C:\\usr\\local\\bin\\Python36 と
+  - C:\\usr\\local\\bin\\Python36 と  
     C:\\usr\\local\\bin\\Python36\\Scripts をPATHに追加
 - Mac
   ```
@@ -170,8 +172,8 @@ $ git --version
 +++
 
 ### pip, virtualenvのインストール
-- pip pythonのパッケージを管理するソフト
-- virtualenv 仮想環境を作るためのソフト
+- pip: pythonのパッケージを管理するソフト
+- virtualenv: 仮想環境を作るためのソフト
 - Windows
   - [ここ](https://bootstrap.pypa.io/get-pip.py)からget-pip.pyをダウンロード
   - get-pip.pyを実行
@@ -182,6 +184,10 @@ $ git --version
     ```
     $ pip install virtualenv
     ```
+
++++
+
+### pip, virtualenvのインストール
 - Mac, Ubuntu
   ```
   $ wget https://bootstrap.pypa.io/get-pip.py
@@ -220,7 +226,8 @@ $ git --version
     ```
     $ source venv/bin/activate
     ```
-  - 仮想環境が有効化されると，ターミナル左に(venv)と表示される
+  - 仮想環境が有効化されると，  
+    ターミナル左に(venv)と表示される
 - 無効化
   ```
   $ deactivate
