@@ -53,7 +53,7 @@ Yuma Kinoshita
 +++
 
 ### Gitを使おう
-![alt](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
+<img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt="git logo" title="git logo" width="200">
 #### Gitって？
 - [wikipedia](https://ja.wikipedia.org/wiki/Git)によれば…
 > プログラムのソースコードなどの変更履歴を
@@ -62,11 +62,9 @@ Yuma Kinoshita
 
 +++
 
-### 質問 ファイル（プログラム）を編集するときはどうしてる？
-- 編集後どんどん上書き保存 |
-  - 間違って上書き保存
-- 編集前とは別のファイルを作り保存 |
-  - 古いやつ1.txt, 新しいやつ1.txt, 新しいやつ2.txt, 最新のやつ.txt, ...
+### 質問 ファイルを編集するときは？
+- 編集後どんどん上書き保存
+- 編集前とは別のファイルを作り保存
 - バージョン管理ソフトを使っている
 
 +++
@@ -79,18 +77,16 @@ Yuma Kinoshita
 +++
 
 ### Gitをインストールしよう
-#### Windows
-[Git for Windows](https://gitforwindows.org/)
-
-#### Mac
-```
-$ brew install git
-```
-
-#### Ubuntu
-```
-$ sudo apt install git
-```
+- Windows
+  - [Git for Windows](https://gitforwindows.org/)
+- Mac
+  ```
+  $ brew install git
+  ```
+- Ubuntu
+  ```
+  $ sudo apt install git
+  ```
 
 #### インストールできたことを確認
 ```
@@ -101,7 +97,8 @@ $ git --version
 +++
 
 ### GitHubに登録しよう
-![alt](https://assets-cdn.github.com/images/modules/logos_page/Octocat.png)
+<img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt="github logo" title="github logo" width="200">
+![alt]
 #### Githubって？
 - 無料で使えるGitサーバ
 - [ここ](https://github.com/)からアカウントを作成
