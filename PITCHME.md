@@ -241,8 +241,7 @@ $ git --version
 #### 開発環境って？
 - プログラムはテキストファイル（.txtと一緒）
 - テキストエディタがあれば編集できる！
-#### ただし…
-- シンプルなテキストエディタで  
+- **ただし…** シンプルなテキストエディタで  
   プログラムを書くのは苦行
 
   <img src="https://raw.githubusercontent.com/tmu-sig/learn-python/master/fig/texteditor.png" alt="text editor logo" title="text editor logo" width="200">
@@ -258,8 +257,7 @@ $ git --version
     テキストを編集できるらしい
 - emacs
   - vimのライバル
-#### ただし…
-- プログラミング用にプラグインを入れたりするのがめんどくさい
+- **ただし…** プログラミング用にプラグインを入れたりするのがめんどくさい
 
 +++
 
