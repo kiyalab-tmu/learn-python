@@ -1,6 +1,6 @@
 ### Python勉強会
-[GitHub(https://github.com/tmu-sig/learn-python)](https://github.com/tmu-sig/learn-python)
-[スライド(https://gitpitch.com/tmu-sig/learn-python)](https://gitpitch.com/tmu-sig/learn-python)
+[GitHub(https://github.com/tmu-sig/learn-python)](https://github.com/tmu-sig/learn-python)  
+[スライド(https://gitpitch.com/tmu-sig/learn-python)](https://gitpitch.com/tmu-sig/learn-python)  
 Yuma Kinoshita
 
 +++
