@@ -202,7 +202,7 @@ $ git --version
 +++
 
 ### 仮想環境の構築
-- プロジェクトのディレクトリへ移動
+- プロジェクトのディレクトリへ移動  
   （gitからcloneしたlearn-pythonの下）
   ```
   $ cd hogehoge/learn-python/
@@ -244,16 +244,18 @@ $ git --version
 #### ただし…
 - シンプルなテキストエディタで  
   プログラムを書くのは苦行
-<img src="https://raw.githubusercontent.com/tmu-sig/learn-python/master/fig/texteditor.png" alt="text editor logo" title="text editor logo" width="200">
+
+  <img src="https://raw.githubusercontent.com/tmu-sig/learn-python/master/fig/texteditor.png" alt="text editor logo" title="text editor logo" width="200">
 
 +++
 
 ### いろいろなテキストエディタ
-<img src="https://www.kaoriya.net/blog/2013/12/06/vimlogo-564x564.png" alt="vim logo" title="vim logo" width="200">
-<img src="https://raw.githubusercontent.com/cg433n/emacs-mac-icon/master/emacs.iconset/icon_128x128.png" alt="emacs logo" title="emacs logo" width="200">
+<img src="https://www.kaoriya.net/blog/2013/12/06/vimlogo-564x564.png" alt="vim logo" title="vim logo" width="100">
+<img src="https://raw.githubusercontent.com/cg433n/emacs-mac-icon/master/emacs.iconset/icon_128x128.png" alt="emacs logo" title="emacs logo" width="100">
 - vim
   - 高機能テキストエディタ
-  - 慣れるとすごい速さでテキストを編集できるらしい
+  - 慣れるとすごい速さで  
+    テキストを編集できるらしい
 - emacs
   - vimのライバル
 #### ただし…
@@ -262,7 +264,7 @@ $ git --version
 +++
 
 ### atom
-<img src="https://www.kaoriya.net/blog/2013/12/06/vimlogo-564x564.png" alt="vim logo" title="vim logo" width="200">
+<img src="https://raw.githubusercontent.com/atom/atom/master/resources/app-icons/stable/png/128.png" alt="vim logo" title="vim logo" width="200">
 #### atomって？
 - githubが作っているテキストエディタ
 - インストールするだけで簡単に使える
