@@ -58,8 +58,7 @@ Yuma Kinoshita
 - [wikipedia](https://ja.wikipedia.org/wiki/Git)によれば…
   > プログラムのソースコードなどの変更履歴を
     記録・追跡するための分散型バージョン管理システム
-
-**よくわからない**
+- **よくわからない**
 
 +++
 
