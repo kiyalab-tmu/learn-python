@@ -111,7 +111,8 @@ $ git --version
 ### リポジトリをコピーしてみよう！
 #### リポジトリって？
 - フォルダとかファイルとかのまとまり
-- tmu-sig/learn-pythonというリポジトリには，この勉強会用のファイルがまとまっている
+- tmu-sig/learn-pythonというリポジトリには，  
+  この勉強会用のファイルがまとまっている
 
 #### リポジトリのコピー
 - ダウンロード先のディレクトリに移動
@@ -156,8 +157,8 @@ $ git --version
 このスライドでは[ここ](https://medium.com/@chezou/python%E3%81%AE%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%82%92%E8%87%AA%E5%88%86%E3%81%AA%E3%82%8A%E3%81%AB%E6%95%B4%E7%90%86%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B-dc8d8f2fe989)  
 の方法に従ってインストールする
 - Windows
-  - [公式ページ](https://www.python.org/)から，
-    Python3.6.5のインストーラーをダウンロード・実行
+  - [公式ページ](https://www.python.org/)
+    のインストーラーを実行
   - C:\\usr\\local\\bin\\Python36 と  
     C:\\usr\\local\\bin\\Python36\\Scripts をPATHに追加
 - Mac
@@ -195,7 +196,8 @@ $ git --version
   $ python get-pip.py --user
   $ pip install virtualenv --user
   ```
-  - exportの行は，.profileや.bash_profileなどに追加しておく
+  - exportの行は，.profileや.bash_profileなどに  
+    追加しておく
 
 +++
 
@@ -237,6 +239,65 @@ $ git --version
 
 ### 開発環境を整えよう
 #### 開発環境って？
+- プログラムはテキストファイル（.txtと一緒）
+- テキストエディタがあれば編集できる！
+#### ただし…
+- シンプルなテキストエディタで  
+  プログラムを書くのは苦行
+<img src="https://github.com/tmu-sig/learn-python/fig/texteditor.png" alt="text editor logo" title="text editor logo" width="200">
+
++++
+
+### いろいろなテキストエディタ
+- vim
+<img src="https://www.kaoriya.net/blog/2013/12/06/vimlogo-564x564.png" alt="vim logo" title="vim logo" width="200">
+  - 高機能テキストエディタ
+  - 慣れるとすごい速さでテキストを編集できるらしい
+- emacs
+  - vimのライバル
+<img src="https://raw.githubusercontent.com/cg433n/emacs-mac-icon/master/emacs.iconset/icon_128x128.png" alt="emacs logo" title="emacs logo" width="200">
+#### ただし…
+- プログラミング用にプラグインを入れたりするのがめんどくさい
+
++++
+
+### atom
+#### atomって？
+- githubが作っているテキストエディタ
+- インストールするだけで簡単に使える
+- プラグインによる機能拡張も簡単
+
++++
+
+### atomのインストール
+- [ここ](https://atom.io)からインストーラーを  
+  ダウンロード・実行
+
+**これだけ**
+
++++
+
+### atomの日本語化
+- メニューとかが英語だと使いにくい！って人へ
+- atomの左上のメニューから  
+  File > Settings を選択
+- Settingsの左のメニューからInstallを選択
+- Search packagesの欄に"japanese-menu"と入力・エンター
+- 一番上に出てきたパッケージをInstall!
+
++++
+
+### 今日はここまで
+
++++
+
+### ふりかえり
+- 今日の勉強会の評価をお願いします
+  - 「せーの」といったら，指の数で評価を表してください
+    - 5本（パー）: とても良かった
+    - 0本（グー）: とても悪かった
+- 勉強会の進め方などに気になるところや  
+  意見などあればいつでも言ってください
 
 +++
 
