@@ -389,7 +389,8 @@ $ git --version
   - print(): 文字列や変数を画面に表示する関数
   - "", '': pythonでは文字列を  
   ダブルクォーテーション("")  
-  もしくはシングルクォーテーション('')で表す．
+  もしくはシングルクォーテーション('')で  
+  表す．
     - それ以外の文字は，変数名や関数名などのプログラムの内容だと解釈される
 
 +++
@@ -455,17 +456,19 @@ $ git --version
 
 ### 変数と関数を使おう
 - 答え
-  ```
+  ```python:kinoshita.py
   def calculate(num1, num2):
     print(num1 + num2)
     print(num1 - num2)
     print(num1 * num2)
     print(num1 / num2)
     print(num1 % num2)
-    
-    if __name__ == "__main__":
+
+  if __name__ == "__main__":
     calculate(3, 4)
     ```
+  - 解説
+    if __name__ == "__main__" 以下の部分はメイン関数に相当
 
 +++
 
