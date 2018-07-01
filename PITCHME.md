@@ -355,7 +355,7 @@ $ git --version
 - learn-pythonフォルダに移動し仮想環境を有効化
   - Windows
     ```
-    $ . venv\\Script\\activate
+    $ . venv\Script\activate
     ```
     ※ 日本語環境ではバックスラッシュ(＼)と円マーク(￥)は同じ
   - Mac, Ubuntu
@@ -447,24 +447,25 @@ $ git --version
 - 与えられた2つの整数num1とnum2の  
   四則演算と余りを計算し，画面に表示する関数  
   calculate(num1, num2)を実装しよう！
-  - 実装したものは，2_functions/チーム名.pyとして保存
+  - 実装したものは，  
+    2_functions/チーム名.pyとして保存
   - gitにpush!
 
 +++
 
 ### 変数と関数を使おう
 - 答え
-```
-def calculate(num1, num2):
-  print(num1 + num2)
-  print(num1 - num2)
-  print(num1 * num2)
-  print(num1 / num2)
-  print(num1 % num2)
-
-if __name__ == "__main__":
-  calculate(3, 4)
-```
+  ```
+  def calculate(num1, num2):
+    print(num1 + num2)
+    print(num1 - num2)
+    print(num1 * num2)
+    print(num1 / num2)
+    print(num1 % num2)
+    
+    if __name__ == "__main__":
+    calculate(3, 4)
+    ```
 
 +++
 
