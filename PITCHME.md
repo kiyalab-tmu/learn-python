@@ -473,6 +473,40 @@ $ git --version
 +++
 
 ### Fizz Buzz
+- 円形に座ってください！
+- 1から順番に数を数えるゲーム
+- ただし…
+  - 3の倍数のときは Fizz
+  - 5の倍数のときは Buss
+  - 3と5の両方の倍数のときは Fizz Buzz
+
++++
+
+### Fizz Buzz
+- 整数値numを引数として
+  - 3の倍数なら Fizz
+  - 5の倍数なら Buzz
+  - 3と5の両方の倍数なら FizzBuzz
+  - それ以外のときはnum自身
+  を端末上に表示する関数fizz_buzz(num)を作ろう！
+
++++
+
+### Fizz Buzz
+ - 答え
+  ```
+  def fizz_buzz(num):
+    if num % 3 != 0 && num % 5 != 0
+      print(num, end="")
+    if num % 3 == 0:
+      print("Fizz", end="")
+    if num % 5 == 0:
+      print("Buzz", end="")
+    print()
+  ```
+- 解説
+  - print(…, end="")とすることで改行されなくなる
+  - if ... elif ... とすると15の倍数の判定がややこしくなる
 
 +++
 
