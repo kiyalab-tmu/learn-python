@@ -251,9 +251,8 @@ $ git --version
 - 有効化
   - Windows
     ```
-    $ . venv/Script/activate
+    $ .\venv\Scripts\activate
     ```
-    コマンドプロンプトの場合/ではなく\\を使う
   - Mac, Ubuntu
     ```
     $ source venv/bin/activate
@@ -355,7 +354,7 @@ $ git --version
 - learn-pythonフォルダに移動し仮想環境を有効化
   - Windows
     ```
-    $ . venv\Script\activate
+    $ .\venv\Scripts\activate
     ```
     ※ 日本語環境ではバックスラッシュ(＼)と円マーク(￥)は同じ
   - Mac, Ubuntu
@@ -454,6 +453,10 @@ $ git --version
 
 +++
 
+### 次に答えがあるから見ないでね！
+
++++
+
 ### 変数と関数を使おう
 - 答え
   ```python:kinoshita.py
@@ -469,48 +472,6 @@ $ git --version
     ```
   - 解説
     - 下のif文の部分はメイン関数に相当
-
-+++
-
-### Fizz Buzz
-#### ゲームをします！
-- 円形に座ってください！
-- 1から順番に数を数えるゲーム
-- ただし…
-  - 3の倍数のときは Fizz
-  - 5の倍数のときは Buss
-  - 3と5の両方の倍数のときは Fizz Buzz
-
-+++
-
-### Fizz Buzz
-- 整数値numを引数として
-  - 3の倍数なら Fizz
-  - 5の倍数なら Buzz
-  - 3と5の両方の倍数なら FizzBuzz
-  - それ以外のときはnum自身を端末上に  
-    表示する関数fizz_buzz(num)を作ろう！
-    - チーム名.py に続けて定義しよう
-
-+++
-
-### Fizz Buzz
- - 答え
-  ```
-  def fizz_buzz(num):
-    if num % 3 != 0 and num % 5 != 0
-      print(num, end="")
-    if num % 3 == 0:
-      print("Fizz", end="")
-    if num % 5 == 0:
-      print("Buzz", end="")
-    print()
-  ```
-- 解説
-  - print(…, end="")とすることで  
-    改行されなくなる
-  - if ... elif ... とすると15の倍数の判定が  
-    ややこしくなる
 
 +++
 
@@ -537,3 +498,63 @@ $ git --version
 - 出身地（北から順に）
 -->
 - 制限時間3分
+
++++
+
+### Fizz Buzz
+#### ゲームをします！
+- 円形に座ってください！
+- 1から順番に数を数えるゲーム
+- ただし…
+  - 3の倍数のときは Fizz
+  - 5の倍数のときは Buzz
+  - 3と5の両方の倍数のときは Fizz Buzz
+
++++
+
+### Fizz Buzz
+- 整数値numを引数として
+  - 3の倍数なら Fizz
+  - 5の倍数なら Buzz
+  - 3と5の両方の倍数なら FizzBuzz
+  - それ以外のときはnum自身を端末上に  
+    表示する関数fizz_buzz(num)を作ろう！
+    - チーム名.py に続けて定義しよう
+
++++
+
+### 次に答えがあるから見ないでね！
+
++++
+
+### Fizz Buzz
+ - 答え
+  ```
+  def fizz_buzz(num):
+    if num % 3 != 0 and num % 5 != 0
+      print(num, end="")
+    if num % 3 == 0:
+      print("Fizz", end="")
+    if num % 5 == 0:
+      print("Buzz", end="")
+    print()
+  ```
+- 解説
+  - print(…, end="")とすることで  
+    改行されなくなる
+  - if ... elif ... とすると15の倍数の判定が  
+    ややこしくなる
+
++++
+
+### for文
+
++++
+
+### ふりかえり
+- 今日の勉強会の評価をお願いします
+  - 「せーの」といったら，指の数で評価を表してください
+    - 5本（パー）: とても良かった
+    - 0本（グー）: とても悪かった
+- 勉強会の進め方などに気になるところや  
+  意見などあればいつでも言ってください
