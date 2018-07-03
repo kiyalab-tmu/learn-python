@@ -240,10 +240,13 @@ $ git --version
   ```
   $ virtualenv venv -p python3.6のフルパス
   ```
+<!---
+受講者には.gitignoreを変更させない
 - gitでvenvフォルダが同期されないようにする
   ```
   $ echo venv >> .gitignore
   ```
+-->
 
 +++
 
