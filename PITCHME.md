@@ -521,18 +521,16 @@ $ git --version
 - 最も重要なことは  
   ***他の人にとってわかりやすいコードを書く***
 - そのためにまず気をつけてほしいこと
-  - 変数・関数にはできるだけ具体的な名前をつける
+  - 変数・関数には具体的な名前をつける
     - NG: a, aa, a1
   - 1行は80文字以内！
   - 1つの関数やスクリプトは細かく分ける
-- おすすめの本
-<img src="https://www.oreilly.co.jp/books/images/picture978-4-87311-565-8.gif" alt="readable code" title="readable code" width="200">
+- [おすすめの本](https://www.oreilly.co.jp/books/9784873115658/)
 
 +++
 
 ### Fizz Buzz
 #### ゲームをします！
-- 円形に座ってください！
 - 1から順番に数を数えるゲーム
 - ただし…
   - 3の倍数のときは Fizz
@@ -599,6 +597,8 @@ $ git --version
     for i in range(100):
       fizz_buzz(i)
   ```
+
++++
 
 ### リスト
 - リスト (list)
