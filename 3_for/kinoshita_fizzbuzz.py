@@ -8,7 +8,5 @@ def fizz_buzz(num):
   print()
 
 if __name__ == "__main__":
-    fizz_buzz(1)
-    fizz_buzz(3)
-    fizz_buzz(15)
-    fizz_buzz(25)
+  for i in range(1, 99):
+    fizz_buzz(i)
