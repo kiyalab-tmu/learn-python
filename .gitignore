@@ -1,7 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 venv
 venv
 venv
 =======
 venv 
 >>>>>>> 7ad1c1c153e1eb53a6361411fe1d0953f1cc7c51
+=======
+venv
+.DS_Store
+__pycache__
+>>>>>>> 4a79d8f5fd9ecd95f019a1bd57029b9ad6257959
