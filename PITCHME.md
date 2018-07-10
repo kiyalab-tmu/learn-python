@@ -497,9 +497,7 @@ $ git --version
 +++
 
 ### 席替え
-<!---
 - 出身地（北から順に）
--->
 - 制限時間3分
 
 +++
@@ -558,7 +556,7 @@ $ git --version
 - 答え
   ```
   def fizz_buzz(num):
-    if num % 3 != 0 and num % 5 != 0
+    if num % 3 != 0 and num % 5 != 0:
       print(num, end="")
     if num % 3 == 0:
       print("Fizz", end="")
