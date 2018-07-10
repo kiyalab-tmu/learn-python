@@ -1,0 +1,12 @@
+list1 = ["a", "b", "c", "d", "e"]
+list2 = list(range(5))
+print("1.list1's 0th element is: "+list1[0])
+print("2.list1's 4th element is: "+list1[4])
+print("3.list1's 1st to 3rd elments are: ")
+print(list1[1:4])
+print("4.Now we add an element 'f' to list1,and list1 is like this: ")
+list1.append("f")
+print(list1)
+print("5.Then we put list1 and list2 together, and now list1 is: ")
+list1.extend(list2)
+print(list1)
