@@ -579,7 +579,7 @@ $ git --version
     処理
   ```
 - main関数でfor文を使って  
-  0から99までの整数値を  
+  1から99までの整数値を  
   fizz_buzz()に入力してみよう
 
 +++
@@ -592,7 +592,7 @@ $ git --version
 - 答え
   ```
   if __name__ == "__main__":
-    for i in range(100):
+    for i in range(1, 100):
       fizz_buzz(i)
   ```
 
@@ -629,10 +629,10 @@ $ git --version
 
 ### リスト
 1. 答え
-  1. ```print(a[0])```
-  1. ```print(a[4])```
-  1. ```print(a[1:4])```
-  1. ```list1.append("a")```
+  1. ```print(list1[0])```
+  1. ```print(list1[4])```
+  1. ```print(list1[1:4])```
+  1. ```list1.append("f")```
 1. 答え
   1. ```list1.extend(list2)```
 
