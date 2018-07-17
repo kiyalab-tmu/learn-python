@@ -8,7 +8,11 @@ def quicksort(list_):
 
 
 def recursive_quicksort(list_, start, stop):
-    if (stop - 1) - start <= 0:
+    if stop - start == 2:
+        if list_[stop-1] < list_[start]:
+            list_[start], list_[stop-1] = list_[stop-1], list_[start]
+        return
+    elif stop - start <= 1:
         return
 
     med_idx = (start + stop - 1) // 2
